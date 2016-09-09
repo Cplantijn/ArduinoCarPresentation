@@ -4,9 +4,10 @@ class One extends Component {
   render() {
     return (
       <div
-        id="SlideOne"
-        className="slide-container">
-       <h1>Slide One</h1>
+        id="slideOne"
+        className="slide-container flex align-center align-middle">
+       <h1>Hacking a Toy R/C Car!</h1>
+       <h2>By Christopher Plantijn</h2>
       </div>
     )
   }
