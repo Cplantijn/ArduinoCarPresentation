@@ -63,7 +63,7 @@ class Presentation extends Component {
       case 7:
         currentSlide = <SlideEight />;
         break;
-      case 9:
+      case 8:
         currentSlide = <SlideNine />;
         break;
       default:
