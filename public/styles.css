@@ -364,7 +364,7 @@ textarea {
   font: inherit;
   /* 2 */ }
 
-html, body, #root {
+html, body, #root, #presentationRoot {
   height: 100%;
   width: 100%; }
 
@@ -373,3 +373,24 @@ html, body, #root {
   color: white; }
   #root h1 {
     color: white; }
+
+#presentationRoot {
+  display: flex; }
+
+.transition-btn {
+  width: 4rem;
+  height: 4rem;
+  position: fixed;
+  margin: auto 0;
+  border: 1px solid black;
+  background: white;
+  outline: none;
+  top: 0;
+  bottom: 0;
+  cursor: pointer; }
+  .transition-btn.left-transition {
+    left: 0; }
+  .transition-btn.right-transition {
+    right: 0; }
+  .transition-btn:hover {
+    background: #cccccc; }

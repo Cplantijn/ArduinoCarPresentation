@@ -20,10 +20,17 @@ class Presentation extends Component {
 
     return (
       <div id="presentationRoot">
-        <button onClick={goToPrevSlide} />
-        {currentSlide}
+        <button
+          className="transition-btn left-transition"
+          onClick={goToPrevSlide}>
+          <i className="fa fa-2x fa-caret-left"></i>
+        </button>
         <span>{slideNumber}</span>
-        <button onClick={goToNextSlide} />
+        <button
+          className="transition-btn right-transition"
+          onClick={goToNextSlide}>
+          <i className="fa fa-2x fa-caret-right"></i>
+        </button>
       </div>
     );
   }
