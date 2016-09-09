@@ -463,5 +463,10 @@ h2 {
   background-size: cover;
   background-position: center center; }
 
+#slideEight {
+  background: url("/../../assets/slide_nine.jpg");
+  background-size: cover;
+  background-position: center center; }
+
 #slideEnd {
   background: black; }

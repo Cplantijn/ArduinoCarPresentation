@@ -11,6 +11,8 @@ import SlideFive from './slides/Five';
 import SlideSix from './slides/Six';
 import SlideSeven from './slides/Seven';
 import SlideEight from './slides/Eight';
+import SlideNine from './slides/Nine';
+
 
 
 
@@ -60,6 +62,9 @@ class Presentation extends Component {
         break;
       case 7:
         currentSlide = <SlideEight />;
+        break;
+      case 9:
+        currentSlide = <SlideNine />;
         break;
       default:
         currentSlide = <EndSlide />;
